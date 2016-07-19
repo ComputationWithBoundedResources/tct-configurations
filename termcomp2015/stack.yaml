@@ -1,0 +1,46 @@
+flags: {}
+packages:
+- '.'
+- location:
+    git: https://github.com/ComputationWithBoundedResources/slogic
+    commit: termcomp2015
+- location:
+    git: https://github.com/ComputationWithBoundedResources/term-rewriting-xml
+    commit: termcomp2015
+- location:
+    git: https://github.com/ComputationWithBoundedResources/tct-core
+    commit: termcomp2015
+- location:
+    git: https://github.com/ComputationWithBoundedResources/tct-common
+    commit: termcomp2015
+- location:
+    git: https://github.com/ComputationWithBoundedResources/tct-trs
+    commit: termcomp2015
+extra-deps:
+- List-0.5.2
+- ansi-terminal-0.6.2.3
+- ansi-wl-pprint-0.6.7.3
+- async-2.1.0
+- dotgen-0.4.2
+- dyre-0.8.12
+- exceptions-0.8.2.1
+- executable-path-0.0.3
+- fgl-5.5.2.3
+- fgl-visualize-0.1.0.1
+- ghc-paths-0.1.0.9
+- hexpat-0.20.9
+- io-storage-0.3
+- mtl-2.2.1
+- multiset-0.2.2
+- optparse-applicative-0.11.0.2
+- parsec-3.1.11
+- stm-2.4.4.1
+- temporary-1.2.0.4
+- term-rewriting-0.2
+- text-1.2.2.1
+- transformers-0.4.3.0
+- transformers-compat-0.4.0.4
+- union-find-array-0.1.0.2
+- utf8-string-1.0.1.1
+- xdg-basedir-0.2.2
+resolver: ghc-7.8.4
