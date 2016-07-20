@@ -1,0 +1,25 @@
+flags: {}
+packages:
+- '.'
+- location:
+    git: https://github.com/ComputationWithBoundedResources/slogic
+    commit: 42b50e382f3feca4f7434fb2fd5851b45d106c53
+- location:
+    git: https://github.com/ComputationWithBoundedResources/term-rewriting-xml
+    commit: termcomp2015
+- location:
+    git: https://github.com/ComputationWithBoundedResources/tct-core
+    commit: 1a6cc54d09066cea3d05b39f773a04c88c7cf64b
+- location:
+    git: https://github.com/ComputationWithBoundedResources/tct-common
+    commit: f950378c5ba414f5f02916046ddcb4af4ec6fb19
+- location:
+    git: https://github.com/ComputationWithBoundedResources/tct-trs
+    commit: 238091aa0e877cf6699c0b69e1fe51b8863a49a1
+extra-deps:
+- dotgen-0.4.2
+- fgl-visualize-0.1.0.1
+- multiset-0.2.2
+- term-rewriting-0.2
+- union-find-array-0.1.0.2
+resolver: lts-5.12
