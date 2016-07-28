@@ -1,9 +1,8 @@
-flags: {}
 packages:
 - '.'
 - location:
     git: https://github.com/ComputationWithBoundedResources/slogic
-    commit: 42b50e382f3feca4f7434fb2fd5851b45d106c53
+    commit: b5f1738b17637923318e793d68fdccb69749a0b8
 - location:
     git: https://github.com/ComputationWithBoundedResources/term-rewriting-xml
     commit: termcomp2015
@@ -15,7 +14,10 @@ packages:
     commit: f950378c5ba414f5f02916046ddcb4af4ec6fb19
 - location:
     git: https://github.com/ComputationWithBoundedResources/tct-trs
-    commit: 238091aa0e877cf6699c0b69e1fe51b8863a49a1
+    commit: 1748dfaa06f508a13b60f69ed57405bdc68afe2c
+- location:
+    git: https://github.com/ComputationWithBoundedResources/tct-its
+    commit: 9eb5a4758789f3739e6cb788e468579cfe3ed4d1
 extra-deps:
 - dotgen-0.4.2
 - fgl-visualize-0.1.0.1
