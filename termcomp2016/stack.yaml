@@ -8,7 +8,7 @@ packages:
     commit: termcomp2015
 - location:
     git: https://github.com/ComputationWithBoundedResources/tct-core
-    commit: 1a6cc54d09066cea3d05b39f773a04c88c7cf64b
+    commit: 6704baf6902fe306bd47ade31f1adb1dc001ef4a
 - location:
     git: https://github.com/ComputationWithBoundedResources/tct-common
     commit: f950378c5ba414f5f02916046ddcb4af4ec6fb19
