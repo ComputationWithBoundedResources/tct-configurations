@@ -14,7 +14,7 @@ packages:
     commit: f950378c5ba414f5f02916046ddcb4af4ec6fb19
 - location:
     git: https://github.com/ComputationWithBoundedResources/tct-trs
-    commit: 1748dfaa06f508a13b60f69ed57405bdc68afe2c
+    commit: termcomp2016
 - location:
     git: https://github.com/ComputationWithBoundedResources/tct-its
     commit: 9eb5a4758789f3739e6cb788e468579cfe3ed4d1
