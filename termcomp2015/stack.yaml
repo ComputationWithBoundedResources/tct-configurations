@@ -1,22 +1,17 @@
 flags: {}
 packages:
 - '.'
-- location:
-    git: https://github.com/ComputationWithBoundedResources/slogic
-    commit: termcomp2015
-- location:
-    git: https://github.com/ComputationWithBoundedResources/term-rewriting-xml
-    commit: termcomp2015
-- location:
-    git: https://github.com/ComputationWithBoundedResources/tct-core
-    commit: termcomp2015
-- location:
-    git: https://github.com/ComputationWithBoundedResources/tct-common
-    commit: termcomp2015
-- location:
-    git: https://github.com/ComputationWithBoundedResources/tct-trs
-    commit: termcomp2015
 extra-deps:
+- git: https://github.com/ComputationWithBoundedResources/slogic
+  commit: termcomp2015
+- git: https://github.com/ComputationWithBoundedResources/term-rewriting-xml
+  commit: termcomp2015
+- git: https://github.com/ComputationWithBoundedResources/tct-core
+  commit: termcomp2015
+- git: https://github.com/ComputationWithBoundedResources/tct-common
+  commit: termcomp2015
+- git: https://github.com/ComputationWithBoundedResources/tct-trs
+  commit: termcomp2015
 - List-0.5.2
 - ansi-terminal-0.6.2.3
 - ansi-wl-pprint-0.6.7.3
